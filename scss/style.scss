@@ -2,10 +2,75 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+
+
 }
 .space-animation {
   height: 100vh;
   background-image: url("../assets/background.jpg");
   background-position: center;
   background-size: cover;
+  & .rocket{
+      position: absolute;
+      z-index: 10;
+      left: 40%  ;
+      top: 40%  ;
+      width: 20%;
+  }
+  & .mercury{
+      position: absolute;
+      width: 10%;
+      top: 80%;
+      left: 70%;
+      z-index: 1;
+  }
+  & .wenus{
+      position: absolute;
+      width: 15%;
+      top: 60%;
+  }
+  & .erth{
+      position: absolute;
+      width: 25%;
+      top: 10%;
+      left: 15%;
+  }
+  & .mars{
+      position: absolute;
+      width: 13%;
+      top: -10%;
+      left: 60%;
+      z-index: 1;
+  }
+  & .jupiter{
+      position: absolute;
+      width: 40%;
+
+      left: 60%;
+      top: -40%;
+  }
+  & .saturn{
+      position: absolute;
+      width: 20%;
+      top: -20%;
+      left: 15%;
+  }
+  & .uran{
+      position: absolute;
+      width: 5%;
+  }
+  & .neptun{
+      position: absolute;
+      width: 3%;
+      left: 50%;
+  }
+  & .sun{
+      position: absolute;
+      height: 280%;
+      width: auto;
+      top: 45%;
+      left: 40%;
+
+  }
 }

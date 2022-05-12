@@ -10,9 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const ratioX = element.getAttribute("ratioX");
       const ratioY = element.getAttribute("ratioY");
 
-      const moveX = - (clientX - centerX) * ratioX;
+      const height = element.clientHeight /2;
+      const width = element.clientWidth / 2;
+
+      const moveX = - (clientX - centerX) * ratioX ;
       const moveY = - ( clientY - centerY) * ratioY;
-      console.log(moveX, moveY);
+   
+        console.log(centerX);
+ 
 
       element.style.transform = `translate(${moveX}px, ${moveY}px)`;
     });

@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
 }
 
 .space-animation {
@@ -10,4 +11,74 @@
   background-image: url("../assets/background.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.space-animation .rocket {
+  position: absolute;
+  z-index: 10;
+  left: 40%;
+  top: 40%;
+  width: 20%;
+}
+
+.space-animation .mercury {
+  position: absolute;
+  width: 10%;
+  top: 80%;
+  left: 70%;
+  z-index: 1;
+}
+
+.space-animation .wenus {
+  position: absolute;
+  width: 15%;
+  top: 60%;
+}
+
+.space-animation .erth {
+  position: absolute;
+  width: 25%;
+  top: 10%;
+  left: 15%;
+}
+
+.space-animation .mars {
+  position: absolute;
+  width: 13%;
+  top: -10%;
+  left: 60%;
+  z-index: 1;
+}
+
+.space-animation .jupiter {
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  top: -40%;
+}
+
+.space-animation .saturn {
+  position: absolute;
+  width: 20%;
+  top: -20%;
+  left: 15%;
+}
+
+.space-animation .uran {
+  position: absolute;
+  width: 5%;
+}
+
+.space-animation .neptun {
+  position: absolute;
+  width: 3%;
+  left: 50%;
+}
+
+.space-animation .sun {
+  position: absolute;
+  height: 280%;
+  width: auto;
+  top: 45%;
+  left: 40%;
 }
