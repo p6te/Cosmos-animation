@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.space-animation {
+  height: 100vh;
+  background-image: url("../assets/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
